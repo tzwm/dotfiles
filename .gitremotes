@@ -1,0 +1,3 @@
+[remote "oh-my-zsh"]
+	url = https://github.com/robbyrussell/oh-my-zsh.git
+	fetch = +refs/heads/*:refs/remotes/oh-my-zsh/*
