@@ -23,8 +23,8 @@ fi
 
 # Secrets
 SECRETS="$DOTFILES/secrets"
-if [ -f SECRETS ]; then
-  source SECRETS
+if [ -f $SECRETS ]; then
+  source $SECRETS
 fi
 
 # arcanist
