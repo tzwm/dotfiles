@@ -67,3 +67,8 @@ fi
 # Rust
 export CARGO_PATH="$HOME/.cargo"
 export PATH=$PATH:$CARGO_PATH/bin
+
+# kubectl
+if [ -x "$(which kubectl)" ]; then
+  source <(kubectl completion zsh)
+fi
