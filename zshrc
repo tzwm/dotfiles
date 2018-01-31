@@ -72,3 +72,8 @@ export PATH=$PATH:$CARGO_PATH/bin
 if [ -x "$(which kubectl)" ]; then
   source <(kubectl completion zsh)
 fi
+
+# exercism
+if [ -f ~/.config/exercism/exercism_completion.zsh ]; then
+  . ~/.config/exercism/exercism_completion.zsh
+fi

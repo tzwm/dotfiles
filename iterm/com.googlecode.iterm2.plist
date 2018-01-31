@@ -356,7 +356,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>240 289 796 473 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 28 1440 872 0 0 1440 900 </string>
+	<string>0 0 1440 900 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>81 389 810 896 0 0 1440 900 </string>
 	<key>NeverWarnAboutShortLivedSessions_150DDF01-0AB3-4468-8977-C86FEBB348DB</key>
@@ -1242,6 +1242,8 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
