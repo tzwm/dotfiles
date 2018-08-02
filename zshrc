@@ -12,6 +12,7 @@ source $ZSH/oh-my-zsh.sh
 # Common configuration
 export PATH='/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin'
 export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 export LANG=en_US.UTF-8
 
